@@ -1,0 +1,25 @@
+{
+    "name": "zae/larattic",
+    "description": "Easy Assetic management for Laravel 4 projects.",
+    "authors": [
+        {
+            "name": "Ezra Pool",
+            "email": "ezra@tsdme.nl"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "~4.2.0",
+        "kriswallsmith/assetic": "~1.2"
+    },
+    "suggests": {
+        "mattcg/cjsdelivery": "Larettic has a cjdelivery filter.",
+        "oyejorge/less.php": "Larettic has a oyejorge less filter."
+    },
+    "autoload": {
+        "psr-0": {
+            "Zae\\Larattic": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
